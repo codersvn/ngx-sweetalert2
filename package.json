@@ -17,7 +17,7 @@
     "publish_module_only": "npm run build && npm publish --access public",
     "publish_module": "npm run build && npx @codersvn/npm-auto-version && npm publish --access public"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "*",
     "@angular/common": "*",
